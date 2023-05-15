@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Anniversary</title>
+    <style>
+      body {
+        background: linear-gradient(#8b76f7, #c3b9f5);
+        text-align: center;
+        color: whitesmoke;
+      }
+
+      h1 {
+        font-size: 70px;
+        margin-bottom: 20px;
+      }
+
+      p {font-family: "Kalam", cursive;}
+
+      #confetti {
+        width: 320px;
+        height: 320px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 8px solid #5131f3;
+      }
+
+      #anniversary-years {
+        background-color: #5131f3;
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+
+      #wedding-date {
+        background-color: #5131f3;
+        padding: 5px 10px;
+        margin-top: 1px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+      }
+
+      .header {
+        padding: 0;
+        font-family: "Kalam", cursive;
+        font-size: 25px;
+        text-shadow: 0 0 1px black;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .gifts {margin-top: 0px;
+    }
+
+    .gift-text {margin-bottom: 0;}
+
+    .gift-hint{margin-top: 0px;}
+
+      .gift-img {
+        margin: 0 auto;
+        width: 400px;
+        height: 300px;
+        background-size:cover;
+        align-items: center;
+    border: solid 6px #5131f3;
+    border-radius: 10px;
+    background-image: url("https://www.ourglobetrotters.com/wp-content/uploads/2021/02/Products-unique-gifts.jpg");
+}
+
+
+      .gift-img-two {
+        margin: 20px auto;
+        width: 400px;
+        height: 300px;
+        background-size:cover;
+        align-items: center;
+    border: solid 6px #5131f3;
+    border-radius: 10px;
+    background-image: url("https://www.brides.com/thmb/XFWD71pnTnwRktO_EqYj1-osgxE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-642726962-d8c96384c6df4579b905921ad639fb85.jpg");
+}
+
+.gift-img-three{
+        margin: 20px auto;
+        width: 400px;
+        height: 320px;
+        background-size:cover;
+        align-items: center;
+    border: solid 6px #5131f3;
+    border-radius: 10px;
+    background-image: url("https://www.youngandthrifty.ca/resizer/qZW0kwZYqKb8VDiQ25EhIz0uHgo=/1024x576/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/xlmedia/UKIODXKH5RH77G2QTNBP5WKGBQ.jpg");
+}
+
+
+.gift-img-four{
+        margin: 20px auto;
+        width: 400px;
+        height: 400px;
+        background-size:cover;
+        align-items: center;
+    border: solid 6px #5131f3;
+    border-radius: 10px;
+    background-image: url("https://merriam-webster.com/assets/mw/images/article/art-wap-landing-mp-lg/light%20blue%20gift%20box%20on%20light%20blue%20background-7944-da9c5f12366780c66aedffff40b250d0@1x.jpg");
+}
+
+.gift-img-five{
+        margin: 20px auto;
+        width: 450px;
+        height: 300px;
+        background-size:cover;
+        align-items: center;
+    border: solid 6px #5131f3;
+    border-radius: 10px;
+    background-image: url("https://img.etimg.com/thumb/width-1200,height-900,imgsize-54582,resizemode-1,msid-96900657/small-biz/gst/gift-or-not-the-confusion-over-gst-on-promotional-schemes-run-by-businesses.jpg");
+}
+
+.gift-img-six{
+        margin: 20px auto;
+        width: 400px;
+        height: 350px;
+        background-size:cover;
+        align-items: center;
+    border: solid 6px #5131f3;
+    border-radius: 10px;
+    background-image: url("https://images.unsplash.com/photo-1513201099705-a9746e1e201f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2lmdHxlbnwwfHwwfHw%3D&w=1000&q=80");
+}
+
+
+
+
+
+.gift-img:hover {background-image: url(https://media3.giphy.com/media/BhueUhbKMrrMVi4FcI/giphy.gif?cid=ecf05e47n39owfoxtii5yrmwtznbkxqi8d54u5tw8g5d51c0&ep=v1_gifs_search&rid=giphy.gif&ct=g);}   
+.gift-img-two:hover {background-image: url(https://media1.giphy.com/media/Y2GFtz19vL1Zu/giphy.gif?cid=ecf05e47u1aquxecymky35g7hyivnvtyivcnd2znqq017gym&ep=v1_gifs_search&rid=giphy.gif&ct=g);}
+.gift-img-three:hover {background-image: url(https://media3.giphy.com/media/TjGFDxbbZRYjv9vpCL/giphy.gif?cid=ecf05e47j1qh2nijp6w95v676ntjd5tf7c1f21y7jxmfr12n&ep=v1_gifs_search&rid=giphy.gif&ct=g);}
+.gift-img-four:hover {background-image:url(https://media3.giphy.com/media/daY12M2BOxCD77pON6/giphy.gif?cid=ecf05e47kmpq04326p5m8h75qkio14rciwybhww6e3m8rlam&ep=v1_gifs_search&rid=giphy.gif&ct=g);}
+.gift-img-five:hover {background-image:url(https://media0.giphy.com/media/XgN7BVqzswKxrLWNkj/giphy.gif?cid=ecf05e47zumku61n8f9sz8wnzbki90r5p8df9vsorj0b0rj6&ep=v1_gifs_search&rid=giphy.gif&ct=g);}
+.gift-img-six:hover {background-image: url(https://media0.giphy.com/media/ymkLJAxVz2la/giphy.gif?cid=ecf05e47d15r4nsjmtfisna1im5e3w8e16yew92wsvts3bun&ep=v1_gifs_search&rid=giphy.gif&ct=g);}
+    </style>
+
+
+  </head>
+
+
+
+  <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+
+    <div class="header">
+      <h1>🤵HAPPY ANNIVERSARY!👰</h1>
+      <img
+        id="confetti"
+        src="https://scontent.ffab1-2.fna.fbcdn.net/v/t1.18169-9/224049_10151126328732563_265978755_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=m-LORkYTcZIAX_NDBp_&_nc_ht=scontent.ffab1-2.fna&oh=00_AfAr0WEtpNBKchSQ20gtKA10hifLz6CrLO-rrv1fvZIIng&oe=64872019"
+      />
+      <h2 id="anniversary-years">11 years!!!</h2>
+      <h4 id="wedding-date">19.05.12</h4>
+
+      <div class="gifts">
+      <h2 class="gift-text">Here's how happy I am!</h2>
+      <h3 class="gift-hint">(hover over gift!)</h3>
+      <div class="gift-img"></div>
+
+      <h2 class="gift-text">When you're with me I feel like...</h2>
+      <div class="gift-img-two"></div>
+
+       <h2 class="gift-text">I think you are...</h2>
+      <div class="gift-img-three"></div>
+
+      <h2 class="gift-text">Without you i'd be...</h2>
+      <div class="gift-img-four"></div>
+
+      <h2 class="gift-text">This is us...</h2>
+      <div class="gift-img-five"></div>
+
+      <h2 class="gift-text">🎊HAPPY 11 YEARS!!!🎊<br> and...</h2>
+      <div class="gift-img-six"></div>
+    </div>
+  </body>
+  <footer>Coded with love by Amy <br>💗</footer>
+</html>
